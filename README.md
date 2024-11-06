@@ -1,4 +1,4 @@
-# Cryptographic_Accelerator
+# Cryptographic Accelerator Using PYNQ-Z2
 ## A Cryptographic harware accelerator leveraging AES implemented on PYNQ-Z2.
 This is a Cyptographic hw accelerator. The Algorithm is run on the FPGA Fabric and by leveraing the pynq z2's python interface the data to be encrypted is fed to the fabric.
 This program targets emmbedded devices where the data to be encrypted is small. therefore this algorithm can encrypt all the way from 1 character to any higher number.
