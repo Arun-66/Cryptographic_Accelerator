@@ -1,0 +1,37 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.615572",
+   "Default View_TopLeft":"-291,-60",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 4 -x 1140 -y -250 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 4 -x 1140 -y -190 -defaultsOSRD
+preplace inst CryptV_0 -pg 1 -lvl 3 -x 960 -y 180 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x -10 -y 160 -defaultsOSRD -resize 261 226
+preplace inst Datain -pg 1 -lvl 2 -x 460 -y -60 -defaultsOSRD
+preplace inst DataEn -pg 1 -lvl 2 -x 460 -y 40 -defaultsOSRD
+preplace inst DatainSel -pg 1 -lvl 2 -x 460 -y 140 -defaultsOSRD
+preplace inst Key -pg 1 -lvl 2 -x 460 -y 240 -defaultsOSRD
+preplace inst mode -pg 1 -lvl 2 -x 460 -y 340 -defaultsOSRD
+preplace inst DataOutSel -pg 1 -lvl 2 -x 460 -y 440 -defaultsOSRD
+preplace inst Reset -pg 1 -lvl 2 -x 460 -y 540 -defaultsOSRD
+preplace netloc CryptV_0_DataOut 1 1 3 160 -130 NJ -130 1100
+preplace netloc DataEn_Dout 1 2 1 560 40n
+preplace netloc DataOutSel1_Dout 1 2 1 600 250n
+preplace netloc DataOutSel_Dout 1 2 1 590 210n
+preplace netloc Datain1_Dout 1 2 1 560 140n
+preplace netloc DatainSel1_Dout 1 2 1 560 170n
+preplace netloc mode_Dout 1 2 1 570 190n
+preplace netloc processing_system7_0_FCLK_CLK0 1 1 2 180 -120 580
+preplace netloc processing_system7_0_GPIO_O 1 1 1 360 -60n
+preplace netloc xlslice_0_Dout 1 2 1 590 -60n
+preplace netloc processing_system7_0_DDR 1 1 3 150J -150 N -150 1100
+preplace netloc processing_system7_0_FIXED_IO 1 1 3 170J -140 N -140 1110
+levelinfo -pg 1 -400 -10 460 960 1140
+pagesize -pg 1 -db -bbox -sgen -400 -270 1540 1120
+"
+}
+{
+   "da_ps7_cnt":"2"
+}

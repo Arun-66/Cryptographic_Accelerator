@@ -1,0 +1,7 @@
+Running: xsim.dir/Crypt_Test_behav/xsimk.exe -simmode gui -wdb Crypt_Test_behav.wdb -simrunnum 0 -socket 50102
+Design successfully loaded
+Design Loading Memory Usage: 7580 KB (Peak: 7580 KB)
+Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 12976 KB (Peak: 12976 KB)
+Simulation CPU Usage: 218 ms
