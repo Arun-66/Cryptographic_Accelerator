@@ -1,0 +1,299 @@
+@keyframes shadow-pop-tr {
+  0% {
+    box-shadow: 0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18),
+      0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18),
+      0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18),
+      0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18);
+    transform: translateX(0) translateY(0);
+  }
+  to {
+    box-shadow: 1px -1px rgba(62, 62, 62, 0.18), 2px -2px rgba(62, 62, 62, 0.18),
+      3px -3px rgba(62, 62, 62, 0.18), 4px -4px rgba(62, 62, 62, 0.18),
+      5px -5px rgba(62, 62, 62, 0.18), 6px -6px rgba(62, 62, 62, 0.18),
+      7px -7px rgba(62, 62, 62, 0.18), 8px -8px rgba(62, 62, 62, 0.18);
+    transform: translateX(-8px) translateY(8px);
+  }
+}
+
+@keyframes shadow-drop-bottom {
+  0% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: 0 12px 20px -12px rgb(0 0 0/35%);
+  }
+}
+.cryptographic-accelerator {
+  position: absolute;
+  top: 89px;
+  left: 0;
+  font-size: 105px;
+  font-weight: 500;
+  color: var(--color-darkslateblue);
+}
+.bg-child {
+  position: absolute;
+  top: 1175.9px;
+  left: 275px;
+  border-radius: 38px;
+  background-color: var(--color-darkslateblue);
+  width: 2159px;
+  height: 1295.2px;
+  transform: rotate(-33deg);
+  transform-origin: 0 0;
+}
+.about-tool {
+  position: absolute;
+  top: 717px;
+  left: 1066px;
+  font-size: 36px;
+  font-weight: 500;
+  color: var(--color-lightslategray);
+}
+.decryption,
+.encryption,
+.variable-key-length {
+  position: absolute;
+  top: 456px;
+  left: 106px;
+  font-weight: 500;
+}
+.decryption,
+.variable-key-length {
+  left: 481px;
+}
+.variable-key-length {
+  top: 642px;
+  left: 116px;
+}
+.input-file,
+.key {
+  left: 14px;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.input-file {
+  position: absolute;
+  top: 329px;
+  font-weight: 500;
+}
+.key {
+  top: 494px;
+}
+.i,
+.key,
+.output-file {
+  position: absolute;
+  font-weight: 500;
+}
+.output-file {
+  top: 700px;
+  left: 14px;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.i {
+  top: 1246px;
+  left: 1383px;
+  font-size: 24px;
+  color: var(--color-white);
+}
+.cryptographic-hardware-acceler {
+  margin: 0;
+}
+.the-python-code {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.cryptographic-hardware-acceler-container {
+  position: absolute;
+  top: 774px;
+  left: 1063px;
+  font-size: 28px;
+  display: inline-block;
+  font-weight: 500;
+  color: var(--color-lightslategray);
+  width: 767px;
+}
+.bg {
+  position: absolute;
+  top: -15px;
+  left: 67px;
+  width: 2791.1px;
+  height: 2262.1px;
+  text-align: left;
+  font-size: var(--font-size-10xl);
+  color: var(--color-gray);
+  font-family: var(--font-inter);
+}
+.browse-button-child,
+.input-file1,
+.key-textbox,
+.output-file1 {
+  position: absolute;
+  top: 505px;
+  left: 67px;
+  border-radius: var(--br-7xl);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 725px;
+  height: 73px;
+}
+.browse-button-child,
+.input-file1,
+.output-file1 {
+  top: 339px;
+}
+.browse-button-child,
+.output-file1 {
+  top: 712px;
+}
+.file-name{
+	top:1200px;
+	left:200px
+}
+.browse-button-child {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-darkslateblue);
+  width: 173px;
+  height: 46px;
+}
+.browse {
+  position: absolute;
+  top: 6px;
+  left: 41px;
+  font-size: var(--font-size-7xl);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.browse-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 351px;
+  left: 606px;
+  width: 173px;
+  height: 46px;
+}
+.browse-button:active,
+.generate-button:active {
+  animation: 1s linear 0s infinite normal none shadow-pop-tr;
+  opacity: 1;
+}
+.radio-box-0,
+.radio-box-01 {
+  cursor: pointer;
+  margin: 0;
+  position: absolute;
+  top: 447px;
+  left: 138px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  border: 3px solid var(--color-black);
+  box-sizing: border-box;
+  width: 24px;
+  height: 24px;
+}
+.radio-box-01 {
+  left: 513px;
+}
+.key-length,
+.key-length-checkbox {
+  border: 2px solid var(--color-black);
+  position: absolute;
+  box-sizing: border-box;
+}
+.key-input {
+  position: absolute;
+  top: 519px; /* Adjust the top position as needed */
+  left: 90px; /* Adjust the left position as needed */
+  width: 680px; /* Adjust width as needed */
+  padding: 10px;
+  border: none;
+  border-radius: none;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  box-sizing: border-box;
+}
+.key-length-checkbox {
+  margin: 0;
+  top: 629px;
+  left: 138px;
+  border-radius: 8px;
+  width: 30px;
+  height: 30px;
+}
+.key-length {
+  outline: 0;
+  background-color: var(--color-white);
+  top: 612px;
+  left: 525px;
+  border-radius: var(--br-7xl);
+  width: 180px;
+  height: 73px;
+  font-size: var(--font-size-xl);
+}
+.generate {
+  position: absolute;
+  top: 6px;
+  left: 30px;
+  font-size: var(--font-size-7xl);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.generate-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 727px;
+  left: 606px;
+  width: 173px;
+  height: 46px;
+}
+.save-as1 {
+  position: absolute;
+  top: 8px;
+  left: 36px;
+  font-size: var(--font-size-7xl);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.save-as {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 820px;
+  left: 342px;
+  width: 173px;
+  height: 46px;
+}
+.save-as:hover {
+  animation: 1s linear 0s 1 normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.save-as:active {
+  animation: 1s ease 0s infinite normal none shadow-pop-tr;
+  opacity: 1;
+}
+.bg-parent {
+  width: 100%;
+  position: relative;
+  background-color: #ecf0f1;
+  height: 1280px;
+  overflow: hidden;
+}
